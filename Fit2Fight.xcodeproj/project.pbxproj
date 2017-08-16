@@ -14,6 +14,7 @@
 		D92623791F3FFE3A00D6C646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92623771F3FFE3A00D6C646 /* LaunchScreen.storyboard */; };
 		D92623841F3FFE3A00D6C646 /* Fit2FightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92623831F3FFE3A00D6C646 /* Fit2FightTests.swift */; };
 		D926238F1F3FFE3A00D6C646 /* Fit2FightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D926238E1F3FFE3A00D6C646 /* Fit2FightUITests.swift */; };
+		D9E559FC1F4142AF00B55BBD /* topView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E559FB1F4142AF00B55BBD /* topView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D926238A1F3FFE3A00D6C646 /* Fit2FightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fit2FightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D926238E1F3FFE3A00D6C646 /* Fit2FightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fit2FightUITests.swift; sourceTree = "<group>"; };
 		D92623901F3FFE3A00D6C646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E559FB1F4142AF00B55BBD /* topView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = topView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D92623751F3FFE3A00D6C646 /* Assets.xcassets */,
 				D92623771F3FFE3A00D6C646 /* LaunchScreen.storyboard */,
 				D926237A1F3FFE3A00D6C646 /* Info.plist */,
+				D9E559FB1F4142AF00B55BBD /* topView.swift */,
 			);
 			path = Fit2Fight;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				D92623711F3FFE3A00D6C646 /* ViewController.swift in Sources */,
 				D926236F1F3FFE3A00D6C646 /* AppDelegate.swift in Sources */,
+				D9E559FC1F4142AF00B55BBD /* topView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fit2Fight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rnwalker7.Fit2Fight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fit2Fight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rnwalker7.Fit2Fight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +511,7 @@
 				D92623951F3FFE3A00D6C646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D92623961F3FFE3A00D6C646 /* Build configuration list for PBXNativeTarget "Fit2FightTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				D92623981F3FFE3A00D6C646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D92623991F3FFE3A00D6C646 /* Build configuration list for PBXNativeTarget "Fit2FightUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				D926239B1F3FFE3A00D6C646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
